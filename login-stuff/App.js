@@ -3,7 +3,6 @@ import { Button, StyleSheet, Text, View } from 'react-native';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import AuthGate from './components/AuthGate';
 
-// Placeholder home screen: replace with your real app.
 function Home() {
   const { user, signOut } = useAuth();
   return (
